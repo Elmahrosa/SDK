@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🇪🇬 Elmahrosa SDK
 
-# Run and deploy your AI Studio app
+**Egypt’s Sovereign Developer Toolkit — Warp All Chains**
 
-This contains everything you need to run your app locally.
+Elmahrosa SDK is the official developer framework for building on TEOS infrastructure. It provides core modules, plugin wrappers, UI components, and mobile packages to empower civic‑first applications, bandwidth marketplaces, and governance dashboards.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1hxie5RrsnqJmpZUxwxel-nbRZEiOE0AJ
+---
 
-## Run Locally
+## ✨ Features
+- **Core Modules:** Auth, Wallet, Governance, I18n
+- **Chain Wrappers:** Solana, Ethereum, Bitcoin, Base, BNB, Pi, TEOS
+- **Plugins:** BankChain compliance, Dolphin liquidity, Pump minting/staking
+- **UI Components:** Marketplace charts, Petition voting, Voice/Transcribe
+- **Mobile SDK:** Kotlin + Swift packages
+- **Docs:** API reference, Integration guide, SDK onboarding
 
-**Prerequisites:**  Node.js
+---
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 Quick Start
+```bash
+git clone https://github.com/Elmahrosa/SDK
+cd SDK
+npm install
