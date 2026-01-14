@@ -52,7 +52,7 @@ import { Auth, Wallet, Governance, I18n, Chains } from "elmahrosa-sdk";
 ```js
 import { Chains } from "elmahrosa-sdk";
 
-const sol = new Chains.Solana({ rpcUrl: process.env.SOLANA_RPC });
+const sol = new Chains.SolanaChain({ rpcUrl: process.env.SOLANA_RPC });
 const bal = await sol.getBalance({ address: "YOUR_WALLET", token: "TEOS" });
 console.log("TEOS balance:", bal);
 ```

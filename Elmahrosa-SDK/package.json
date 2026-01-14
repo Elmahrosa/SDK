@@ -28,5 +28,8 @@
     "Civic",
     "Web3"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.4"
+  }
 }
