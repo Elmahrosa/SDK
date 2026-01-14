@@ -1,0 +1,37 @@
+
+{
+  "name": "@elmahrosa/sdk",
+  "version": "1.0.0",
+  "description": "Sovereign Developer Toolkit for Egypt's Digital Future",
+  "main": "sdk/index.ts",
+  "module": "sdk/index.ts",
+  "files": [
+    "sdk",
+    "types.ts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:auth": "echo \"Testing auth...\" && exit 0",
+    "test:wallet": "echo \"Testing wallet...\" && exit 0"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "lucide-react": "^0.562.0",
+    "@google/genai": "^0.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Elmahrosa/Elmahrosa-SDK"
+  },
+  "keywords": [
+    "blockchain",
+    "egypt",
+    "sovereign",
+    "teos",
+    "pi",
+    "sdk"
+  ],
+  "author": "Ayman Seif <ayman@teosegypt.com>",
+  "license": "MIT"
+}
