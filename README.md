@@ -1,4 +1,3 @@
-![CI](https://github.com/Elmahrosa/SDK/actions/workflows/ci.yml/badge.svg)
 # 🇪🇬 Elmahrosa SDK
 **Egypt’s Sovereign Developer Toolkit — Warp All Chains**
 
